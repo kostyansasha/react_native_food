@@ -26,8 +26,8 @@ const SearchScreen = () => {
             {errorMessage ? <Text>{errorMessage}</Text> : null}
 
             <Text>Found: {results.length}</Text>
-            <ResultsList results={filteringResultsByPrice('$')}   title='111' />
-            <ResultsList results={filteringResultsByPrice('$$')}  title='222' />
+            <ResultsList results={filteringResultsByPrice('$')} title='111' />
+            <ResultsList results={filteringResultsByPrice('$$')} title='222' />
             <ResultsList results={filteringResultsByPrice('$$$')} title='333' />
         </View>
     );
